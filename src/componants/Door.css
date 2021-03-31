@@ -1,0 +1,72 @@
+/*Heading styles (title and win/lose)*/
+h2, h1{
+    padding: 10px 0px;
+    margin: 0px;
+    color: white;
+}
+h1{
+    margin-top: 15px;
+}
+/*Main door styling*/
+.door{
+    height: 400px;
+    width: 200px;
+    margin: 30px;
+}
+/*Styling for when the door is closed*/
+.door-bg-closed{
+    margin: 30px;
+    background-image: url("../images/door.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+/*Styling for winning door*/
+.prize-bg{
+    margin: 0px;
+    background-image: url("../images/gold.jpg");
+    background-size: cover;
+}
+/*Styling for losing door*/
+.goat-bg{
+    margin: 0px;
+    background-image: url("../images/goat.jpg");
+    background-size: cover;
+}
+/*Styling for restart button*/
+button{
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+button:hover{
+    background-color: rgb(202, 202, 202);
+    
+}
+/*Styling for the exerpt*/
+p{
+    margin: 20px 0px;
+    padding: 0px 20px;
+    width: 720px;
+    color: rgb(155, 155, 155);
+}
+/*Styling for the win/lose to keep the gap ( it looks like somebody is hiding in there :D )*/
+.invis{
+    opacity: 0%;
+}
+/*Styiling for credits*/
+a{
+    text-decoration: none;
+    color:rgb(0, 97, 153);
+}
+a:hover{
+    color:rgb(0, 137, 216);
+}
+span{
+    color: rgb(71, 71, 71);
+}
